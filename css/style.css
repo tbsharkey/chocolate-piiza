@@ -1,0 +1,25 @@
+* {
+  background-color: red;
+}
+
+ul {
+  list-style: none;
+}
+
+.ingredient-list {
+  background-image: url('/img/list-bg.png');
+
+}
+
+
+.left-list {
+  float: left;
+}
+
+.right-list {
+  float: right;
+}
+
+.author {
+  border-radius: 50%;
+}
