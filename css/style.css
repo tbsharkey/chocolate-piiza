@@ -13,6 +13,20 @@ h1 {
   background-image: url("img/list-bg.png");
 }
 
+.icon-list {
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+
+.icon-list ul li {
+  display: inline;
+}
+
+.pin-block {
+  padding-right: 6.5px;
+}
+
 body {
   margin-left: auto;
   margin-right: auto;
