@@ -2,9 +2,33 @@ ul {
   list-style: none;
 }
 
+h1 {
+  font-family: Oswald;
+  font-weight: 800;
+}
+
 .ingredient-list {
   font-family: 'Patrick Hand';
   font-weight: 550;
+  background-image: url("img/list-bg.png");
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  max-width: 900px;
+}
+
+body, main {
+  width: 100%;
+}
+
+.hero-img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
 
 
@@ -18,4 +42,5 @@ ul {
 
 .author {
   border-radius: 50%;
+  position: absolute;
 }
