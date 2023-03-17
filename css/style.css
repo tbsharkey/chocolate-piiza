@@ -1,14 +1,10 @@
-* {
-  background-color: red;
-}
-
 ul {
   list-style: none;
 }
 
 .ingredient-list {
-  background-image: url('/img/list-bg.png');
-
+  font-family: 'Patrick Hand';
+  font-weight: 550;
 }
 
 
