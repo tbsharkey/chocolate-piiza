@@ -1,3 +1,8 @@
+/* General Styles */
+
+hr {
+  width: 900px;
+}
 ul {
   list-style: none;
 }
@@ -7,26 +12,23 @@ h1 {
   font-weight: 800;
 }
 
-.ingredient-list {
-  font-family: 'Patrick Hand';
-  font-weight: 550;
-  background-image: url("img/list-bg.png");
-}
-
-.icon-list {
-  display: inline-block;
-  position: relative;
-  float: right;
-}
-
-.icon-list ul li {
-  display: inline;
+.instructions {
+  text-indent: 25px;
 }
 
 .pin-block {
   padding-right: 6.5px;
 }
 
+button {
+  font-family: "Oswald";
+  background: #e67c5c;
+  color: white;
+  padding: 10px 36px;
+  float: right;
+}
+
+/* Layout Styles */
 body {
   margin-left: auto;
   margin-right: auto;
@@ -39,6 +41,16 @@ body, main {
   width: 100%;
 }
 
+.icon-list {
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+
+.icon-list ul li {
+  display: inline;
+}
+
 .hero-img {
   display: block;
   margin: 0 auto;
@@ -48,13 +60,35 @@ body, main {
 
 .left-list {
   float: left;
+  padding-left: 50px;
 }
 
 .right-list {
   float: right;
+  padding-right: 70px;
+}
+
+
+/* Component Styles */
+.ingredient-list {
+  font-family: 'Patrick Hand';
+  font-weight: 550;
+  background-image: url("img/list-bg.png");
+  position: relative;
+}
+
+.bio {
+  margin-top: 25px;
+  border-top: thick;
+  display: inline;
+}
+
+.bio-info {
+  display: block;
 }
 
 .author {
   border-radius: 50%;
-  position: absolute;
+  
 }
+
