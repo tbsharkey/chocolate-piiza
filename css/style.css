@@ -1,6 +1,72 @@
+/* Header */
+
+header {
+  /* position: sticky; */
+  top: 20px;
+  background-color: white;
+  background-image: url("/img/hr-img.png");
+  height: 113px;
+}
+
+.header-container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-shrink: 3; */
+  height: 100px;
+  width: 100%;
+}
+
+.logo-group {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 30%;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 20px;
+}
+.logo {
+  /* float: left; */
+}
+
+.name {
+  height: 15px;
+}
+
+header p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-stretch: ultra-condensed;
+  font-size: xx-small;
+  block-size: 20%;
+  vertical-align: bottom;
+  margin-left: 10px;
+}
+
+.icon-list {
+  /* display: inline-block; */
+  /* position: static; */
+}
+
 ul {
   list-style: none;
 }
+
+.icon-list ul li {
+  display: inline;
+}
+
+.pin-block {
+  padding-right: 6.5px;
+}
+
+/* Main  */
 
 h1 {
   font-family: Oswald;
@@ -12,6 +78,8 @@ h1 {
   font-weight: 550;
   background-image: url("img/list-bg.png");
 }
+
+
 
 body {
   margin-left: auto;
