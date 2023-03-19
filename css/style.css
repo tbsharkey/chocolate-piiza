@@ -43,7 +43,8 @@ header div {
   
 }
 
-#logo-info > p {
+#logo-info  p {
+  margin-top: -10px;
   font-size: 10px;
 }
 
@@ -75,8 +76,8 @@ ul {
 
 h1 {
   font-family: Oswald;
-  font-weight: 800;
   margin-bottom: 2px;
+  font-weight: bold;
 }
 
 span {
@@ -115,6 +116,10 @@ main {
   width: 100%;
 }
 
+main p {
+  font-size: 20px;
+  color: slategrey;
+}
 .icon-list {
   display: inline-block;
   position: relative;
@@ -137,6 +142,7 @@ main {
 .hero-img {
   display: block;
   margin: 0 auto;
+  margin-top: 25px;
   width: 100%;
 }
 
