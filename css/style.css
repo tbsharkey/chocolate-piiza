@@ -91,18 +91,21 @@ body, main {
 }
 
 .bio {
-  margin-top: 25px;
-  border-top: thick;
-  display: inline;
+  height: 80px;
+  margin: 30px auto;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .bio-info {
-  display: block;
+  margin-left: 10px;
+  line-height: 1.5;
+  width: 600px;
 }
 
-.author {
+.bio-img {
   border-radius: 50%;
-  
+  padding-top: 5px;
 }
 
 footer {
