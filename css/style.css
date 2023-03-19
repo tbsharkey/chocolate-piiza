@@ -8,6 +8,8 @@ header {
 #logo-info h2 {
   font-size: 35px;
   font-family: Brush Script MT, Brush Script Std, cursive;
+  margin-top: 0;
+  margin-bottom: 2px;
 }
 
 header div {
@@ -25,16 +27,6 @@ header div {
 #logo-img {
   height: 50px;
   margin-right: 5px;
-}
-
-#logo-info h2 {
-  margin-top: 0;
-  margin-bottom: 2px;
-}
-
-#logo-info p {
-  margin-bottom: -20px;
-  margin-top: 7px;
 }
 
 #logo-info {
